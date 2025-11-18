@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  min-height: 100vh;
+}
+
+/* Banner */
+.artist-section {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 280px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.artist-overlay {
+  padding: 30px;
+}
+
+.artist-name {
+  font-size: 36px;
+  color: #ffffff;
+}
+
+.artist-role {
+  font-size: 24px;
+  font-weight: 600;
+  color: #cbd5e1;
+}
+
+/* Playlist */
+.playlist-section {
+  background-color: #152850;
+  padding: 25px;
+}
+
+.playlist-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.playlist-title {
+  font-size: 24px;
+  color: #e2e8f0;
+  font-family: 'Roboto';
+}
+
+.search-input-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: transparent;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px;
+  padding: 8px 12px;
+  width: 200px;
+  cursor: pointer;
+}
+
+.inputbox {
+  flex: 1;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  color: #e2e8f0;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.songs-list {
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+.song-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.song-image {
+  width: 100px;
+  height: 70px;
+  border-radius: 6px;
+}
+
+.song-info {
+  flex-grow: 1;
+  padding-left: 15px;
+}
+
+.song-name {
+  font-weight: 500;
+  color: #e2e8f0;
+  font-size: 16px;
+}
+
+.song-genre {
+  color: #3b82f6;
+  font-size: 14px;
+}
+
+.song-end {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.song-duration {
+  color: #e2e8f0;
+  font-size: 14px;
+}
+
+.delete-btn {
+  background: transparent;
+  border: none;
+  color: #e2e8f0;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.no-songs {
+  text-align: center;
+  margin-top: 34px;
+  color: #e2e8f0;
+}
