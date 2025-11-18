@@ -1,11 +1,5 @@
 ## 🎵 Playlist – *Ed Sheeran*
 
-[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
-[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
-[![Deployed](https://img.shields.io/badge/Live%20Demo-Click%20Here-blue?style=for-the-badge&logo=vercel)](#)
-
----
 
 ### 🎬 **Demo**
 
@@ -16,18 +10,87 @@
 </div>
 
 ---
-
-### 🧩 **Design Files**
+### Design Files
 
 <details>
 <summary>Click to view</summary>
 
-- 🎧 [Music Playlist – Desktop View](https://assets.ccbp.in/frontend/content/react-js/music-playlist-lg-output.png)
-- ❌ [No Songs Found View](https://assets.ccbp.in/frontend/content/react-js/music-playlist-no-songs-found-lg-ouput.png)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Music Playlist](https://assets.ccbp.in/frontend/content/react-js/music-playlist-lg-output.png)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - No Songs Found View](https://assets.ccbp.in/frontend/content/react-js/music-playlist-no-songs-found-lg-ouput.png)
 
 </details>
 
----
+### Completion Instructions
+
+<details>
+<summary>Functionality to be added</summary>
+<br/>
+
+The app must have the following functionalities
+
+- Initially, the list of given track items should be displayed with a delete button for each track item
+- When a non-empty value with key `name` from the `initialTracksList` provided in the search input then display the track items which includes the search input irrespective of case
+- When the delete button of a track item is clicked, the respective track item should be deleted from the list of track items
+- When a non-empty value is provided in the search input element, and no track item includes the value given in the search input, then [No Songs Found View](https://assets.ccbp.in/frontend/content/react-js/music-playlist-no-songs-found-lg-ouput.png) should be displayed
+- When all track items are deleted, then [No Songs Found View](https://assets.ccbp.in/frontend/content/react-js/music-playlist-no-songs-found-lg-ouput.png) should be displayed
+
+- The App is provided with `initialTracksList`. It consists of a list of trackItem objects with the following properties in each trackItem object
+
+  |   Key    | Data Type |
+  | :------: | :-------: |
+  |    id    |  String   |
+  | imageUrl |  String   |
+  |   name   |  String   |
+  |  genre   |  String   |
+  | duration |  String   |
+
+  </details>
+
+### Important Note
+
+<details>
+<summary>Click to view</summary>
+
+<br/>
+
+**The following instructions are required for the tests to pass**
+
+- The `imageUrl` in each track item should have alt as **track**
+- The delete button in the track item should have the `data-testid` as **delete**
+
+</details>
+
+### Resources
+
+<details>
+<summary>Image URLs</summary>
+
+- [https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png](https://assets.ccbp.in/frontend/react-js/music-playlist/music-playlist-Edsheeran-bg.png) background-image URL
+
+</details>
+
+<details>
+<summary>Colors</summary>
+
+<br/>
+
+<div style="background-color: #152850; width: 150px; padding: 10px; color: white">Hex: #152850</div>
+<div style="background-color: #cbd5e1; width: 150px; padding: 10px; color: black">Hex: #cbd5e1</div>
+<div style="background-color: #ffffff; width: 150px; padding: 10px; color: black">Hex: #ffffff</div>
+<div style="background-color: #3b82f6; width: 150px; padding: 10px; color: black">Hex: #3b82f6</div>
+<br/>
+
+</details>
+
+<details>
+<summary>Font-families</summary>
+
+- Roboto
+
+</details>
+<!-- Uploading "screencapture-naveenreddytippasanincnxhrjsce7hlq1-drops-nxtwave-tech-2025-11-18-17_24_57.png"... -->
+
+
 
 ### ⚙️ **Setup Instructions**
 
